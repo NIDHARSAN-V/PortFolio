@@ -9,6 +9,7 @@ justify-content: center;
 /* background-color: red; */
 position: relative;
 padding: 80px 30px;
+min-height: 90vh;
 z-index: 1;
 
 @media (max-width:960px) {
@@ -45,6 +46,8 @@ order: 1;
     order: 2;   
     margin-bottom: 30px;
     display: flex;
+    gap: 6px;
+    /* background-color: red; */
     flex-direction: column;
     align-items: center;
 
@@ -55,7 +58,8 @@ order: 1;
 const HeroRight = styled.div`
 width: 100%;
 order:2;
-background-color: blue;
+background-color: green;
+
 
 @media (max-width:960px) {
     order: 1;   
@@ -120,6 +124,70 @@ cursor: pointer;
 color: ${({theme}) => theme.primary};
 
 `
+const Subtitle = styled.div`
+font-size: 20px;
+margin-bottom: 42px;
+color: ${({theme})=>theme.text_primary + 95};
+line-height: 32px;
+@media (max-width: 960px)
+{
+    text-align: center;
+}
+
+@media (max-width: 640px)
+{
+    font-size: 16px;
+    line-height:32px ;
+    width: 95%;
+}
+`
+
+const ResumeButton = styled.a`
+   -webkit-appearance:button;
+   -moz-appearance: button;
+   appearance:button;
+   text-decoration: none;
+   /* width: 95%; */
+   width: 95%;
+   max-width: 200px;
+   text-align: center;
+   padding: 16px 0px;
+   cursor: pointer;
+   
+   background: hsla(271, 100%, 50%, 1); 
+
+
+background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+
+
+background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+
+background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+
+   
+   box-shadow: 5px 5px 5px 5px #1f2634 ;
+   /* text-shadow: 2px 2px 2px black; */
+   border-radius: 50px;
+   font-weight: 700;
+   font-size: 20px;
+
+   &:hover{
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 20px 20px 60px  #1f2634;
+    filter: brightness(1.1);
+   }
+
+   @media (max-width:640px)
+   {
+    padding: 12px 0;
+    font-size: 18px;
+   }
+
+
+
+
+`
 
 function HeroSection() {
   return (
@@ -143,10 +211,14 @@ function HeroSection() {
 
                     </Span>
                 </TextType>
+                <Subtitle>
+                    {Bio.description}
+                </Subtitle>
+                <ResumeButton>Resume</ResumeButton>
             </HeroLeft>
 
             <HeroRight>
-                <img src="" alt="" />
+                <Img src={} > </Img>
             </HeroRight>
 
         </HeroInnerContainer>
