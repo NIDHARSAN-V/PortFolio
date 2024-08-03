@@ -12,7 +12,7 @@ background-color: ${({theme}) =>theme.bg};
 /* background-color: red; */
 width: 100%;
 /* overflow-x: hidden; */
-height: 90vh;
+height: 100%;
 color: ${({theme}) => theme.text_primary};
 /* border: 1px solid red;             /////////////////extra */
 
