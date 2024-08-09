@@ -15,7 +15,9 @@ const Nav = styled.div`
  position: sticky;
  top: 0;
  z-index: 10;
+
  color: white;
+ /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); */
 `
 
 const NavbarContainer = styled.div`
@@ -29,6 +31,7 @@ const NavbarContainer = styled.div`
  justify-content: space-between;
  padding: 0 24px;
  font-size: 1.3rem;
+ border-bottom: 5px solid  ${({ theme }) => theme.primary} ;
 
 
 `

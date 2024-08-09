@@ -1,13 +1,15 @@
 import React from 'react'
+import StyledStarCanvas from '../canvas/Stars.jsx'
 import styled from 'styled-components'
 import { Bio } from '../../Data/constants'
-import {Tilt} from "react-tilt"
-import {motion} from "framer-motion"
+import { Tilt } from "react-tilt"
+import { motion } from "framer-motion"
 import HeroBgAnimation from '../../HeroAnimation';
 import Typewriter from "typewriter-effect"
 const HeroImg = require("../../images/madara.jpg");
 const headContainerAnimation = require("../../Utils/motion.js")
-
+const headTextAnimation = require("../../Utils/motion.js")
+const headContentAnimation = require("../../Utils/motion.js")
 
 
 const HeroContainer = styled.div`
@@ -19,6 +21,7 @@ position: relative;
 padding: 80px 30px;
 min-height: 90vh;
 z-index: 1;
+
 
 @media (max-width:960px) {
     padding: 60px 16px;
@@ -71,7 +74,6 @@ order:2;
 /* background-color: blue;  */ display: flex;          
 /* align-items: flex-start; */
 justify-content: end;
-
 @media (max-width:960px) {
     order: 1;   
     margin-bottom: 80px;
@@ -89,7 +91,7 @@ justify-content: end;
 const Title = styled.div`
 font-weight:700;
 font-size: 50px;
-color: ${({theme}) => theme.text_primary};
+color: ${({ theme }) => theme.text_primary};
 line-height: 68px;
 @media (max-width: 960px)
 {
@@ -113,7 +115,7 @@ font-weight:600;
 font-size: 32px;
 display: flex;
 gap: 12px;
-color: ${({theme}) => theme.text_primary};
+color: ${({ theme }) => theme.text_primary};
 line-height: 68px;
 @media (max-width: 960px)
 {
@@ -132,13 +134,13 @@ line-height: 68px;
 `
 const Span = styled.div`
 cursor: pointer;
-color: ${({theme}) => theme.primary};
+color: ${({ theme }) => theme.primary};
 
 `
 const Subtitle = styled.div`
 font-size: 20px;
 margin-bottom: 42px;
-color: ${({theme})=>theme.text_primary + 95};
+color: ${({ theme }) => theme.text_primary + 95};
 line-height: 32px;
 @media (max-width: 960px)
 {
@@ -203,7 +205,7 @@ width: 100%;
 height: 100%;
 max-width: 400px;
 max-height: 400px;
-border: 3px solid ${({theme}) => theme.primary};
+border: 3px solid ${({ theme }) => theme.primary};
 
 
 @media (max-width:640px)
@@ -241,52 +243,64 @@ transform:translateX(-50%) translateY(-50%);
 
 
 function HeroSection() {
-  return (
-    <div id='about'>
-      <HeroContainer>
-               <HeroBg>
-                <HeroBgAnimation/>
-               </HeroBg>
+    return (
+        <div id='about'>
+            <HeroContainer>
+                <HeroBg>
+                    {/* <StyledStarCanvas/> */}
+                    <HeroBgAnimation />
+                </HeroBg>
 
-               <motion.div {...headContainerAnimation}>
-               <HeroInnerContainer>
+                <motion.div {...headContainerAnimation}>
+                    <HeroInnerContainer>
 
-<HeroLeft>
-    <Title>Hi!, I am <br />{Bio.name}. . .</Title>
-    <TextType>
-        Iam a 
-        <Span>
-            <Typewriter options={{
-                strings:Bio.roles,
-                autoStart:true,
-                loop:true
+                        <HeroLeft>
+                            <motion.div {...headTextAnimation}>
+                                <Title>Hi!, I am <br />{Bio.name}. . .</Title>
+                                <TextType>
+                                    Iam a
+                                    <Span>
+                                        <Typewriter options={{
+                                            strings: Bio.roles,
+                                            autoStart: true,
+                                            loop: true
 
-            }}>
-            </Typewriter>
+                                        }}>
+                                        </Typewriter>
 
-        </Span>
-    </TextType>
-    <Subtitle>
-        {Bio.description}
-    </Subtitle>
-    <ResumeButton>Resume</ResumeButton>
-</HeroLeft>
+                                    </Span>
+                                </TextType>
+                            </motion.div>
 
-<HeroRight>
-    <Tilt><Img wei
-src={HeroImg} 
-alt="" 
-/></Tilt>
+                            <motion.div {...headContentAnimation}>
+                                <Subtitle>
+                                    {Bio.description}
+                                </Subtitle>
+                            </motion.div>
 
-</HeroRight>
 
-</HeroInnerContainer>
+                            <ResumeButton>Resume</ResumeButton>
+                        </HeroLeft>
 
-               </motion.div>
-      
-      </HeroContainer>
-    </div>
-  )
+                        <HeroRight>
+                            <motion.div {...headContentAnimation}>
+                                <Tilt><Img wei
+                                    src={HeroImg}
+                                    alt=""
+                                /></Tilt>
+                            </motion.div>
+
+
+
+                        </HeroRight>
+
+                    </HeroInnerContainer>
+
+                </motion.div>
+
+            </HeroContainer>
+        </div>
+    )
 }
 
 export default HeroSection
