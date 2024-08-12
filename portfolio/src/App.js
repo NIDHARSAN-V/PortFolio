@@ -9,6 +9,8 @@ import Experience from './Components/Section/Experience'
 import Education from './Components/Section/Education'
 import StyledStarCanvas from './Components/canvas/Stars'
 import Projects from './Components/Section/Projects'
+import Contact from './Components/Section/Contact'
+import Footer from './Components/Section/Footer'
 
 
 
@@ -19,8 +21,10 @@ width: 100%;
 overflow-x: hidden;
 height: 100%;
 color: ${({theme}) => theme.text_primary};
+
 /* border: 1px solid red;             /////////////////extra */
 `
+
 const Wrapper =styled.div`
 padding-bottom: 100px;
 background: linear-gradient(38.73deg,
@@ -34,19 +38,24 @@ linear-gradient(
 );
 width: 100%;
 clip-path: polygon(0 0,100% 0 , 100% 100% , 30%  98% , 0  100%);
-/* background-color: red; */
 
 ;
 `
 
+const FooterSection = styled.div`
+
+padding-top: 150px;
+`
+
 function App() {
   return (
+
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
        <Navbar/>
        <Body>
         <StyledStarCanvas/>
-        <div>
+        
         <HeroSection/>
         <Wrapper>
         <Skills/>
@@ -57,10 +66,16 @@ function App() {
 
           <Education/>
          </Wrapper>
-          </div>
+
+         <Wrapper>
+          <Contact/>
+         </Wrapper>
+         <Footer/>
+         
        </Body>
       </BrowserRouter>
     </ThemeProvider>
+
   )
 }
 

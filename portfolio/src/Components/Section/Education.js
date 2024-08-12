@@ -4,6 +4,7 @@ import "react-vertical-timeline-component/style.min.css"
 import { education } from '../../Data/constants'
 import EducationCard from '../Cards/EducationCard'
 import { VerticalTimeline } from 'react-vertical-timeline-component'
+import EarthCanvas from '../canvas/Earth'
 
 
 const Container = styled.div`
@@ -70,7 +71,10 @@ margin-bottom: 40px;
 // const VerticalTimeLine = styled.div`
 /* display: flex;
 flex-direction: column; */
+const EarAni = styled.div`
 
+
+`
 
 
 
@@ -92,6 +96,10 @@ function Education() {
                     ))}
                 </VerticalTimeline>
               </Wrapper>
+              <EarAni>
+
+              <EarthCanvas/>
+              </EarAni>
 
     </Container>  )
 }

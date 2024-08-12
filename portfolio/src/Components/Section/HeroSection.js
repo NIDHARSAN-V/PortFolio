@@ -154,50 +154,38 @@ line-height: 32px;
     width: 95%;
 }
 `
-
 const ResumeButton = styled.a`
-   -webkit-appearance:button;
-   -moz-appearance: button;
-   appearance:button;
-   text-decoration: none;
-   /* width: 95%; */
-   width: 95%;
-   max-width: 200px;
-   text-align: center;
-   padding: 16px 0px;
-   cursor: pointer;
-   
-   background: hsla(271, 100%, 50%, 1); 
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  width: 95%;
+  max-width: 200px;
+  text-align: center;
+  padding: 16px 0px;
+  cursor: pointer;
+  background: hsla(271, 100%, 50%, 1);
+  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  box-shadow: 5px 5px 5px 5px #1f2634;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 20px;
 
-
-background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-
-
-background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-
-background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-
-   
-   box-shadow: 5px 5px 5px 5px #1f2634 ;
-   /* text-shadow: 2px 2px 2px black; */
-   border-radius: 50px;
-   font-weight: 700;
-   font-size: 20px;
-
-   &:hover{
+  &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px  #1f2634;
+    box-shadow: 20px 20px 60px #1f2634;
     filter: brightness(1.1);
-   }
+  }
 
-   @media (max-width:640px)
-   {
+  @media (max-width: 640px) {
     padding: 12px 0;
     font-size: 18px;
-   }
-
-`
+  }
+`;
 
 const Img = styled.img`
 border-radius: 50%;
@@ -245,6 +233,7 @@ transform:translateX(-50%) translateY(-50%);
 function HeroSection() {
     return (
         <div id='about'>
+            
             <HeroContainer>
                 <HeroBg>
                     {/* <StyledStarCanvas/> */}
@@ -279,7 +268,9 @@ function HeroSection() {
                             </motion.div>
 
 
-                            <ResumeButton>Resume</ResumeButton>
+                            <ResumeButton href={Bio.resume} target="_blank" rel="noopener noreferrer">
+  Resume
+</ResumeButton>
                         </HeroLeft>
 
                         <HeroRight>

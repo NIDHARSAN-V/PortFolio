@@ -152,6 +152,8 @@ function Projects() {
 
 <CardContainer>
     {toggle === "all" && projects.map((project) =><ProjectsCard project={project}/>)}
+
+    {projects.filter((item)=> item.category==toggle).map((project) =><ProjectsCard project={project}/>)}
 </CardContainer>
 
             </Wrapper>

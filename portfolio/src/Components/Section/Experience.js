@@ -4,6 +4,7 @@ import "react-vertical-timeline-component/style.min.css"
 import { experiences } from '../../Data/constants'
 import ExperienceCard from '../Cards/ExperienceCard'
 import { VerticalTimeline } from 'react-vertical-timeline-component'
+import EarthCanvas from '../canvas/red'
 
 
 const Container = styled.div`
@@ -52,6 +53,8 @@ color: ${({theme})=> theme.text_primary};
     font-size: 32px;
 }
 `
+
+
 const Desc = styled.div`
 font-size: 18px;
 font-weight: 600;
@@ -92,6 +95,7 @@ function Experience() {
                     ))}
                 </VerticalTimeline>
               </Wrapper>
+              <EarthCanvas/>
 
     </Container>  )
 }
