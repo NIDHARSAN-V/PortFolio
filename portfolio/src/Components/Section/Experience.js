@@ -65,7 +65,6 @@ margin-bottom: 40px;
 
 @media (max-width: 768px)
 {
-   
     font-size: 16px;
 }
 margin-bottom: 40px;

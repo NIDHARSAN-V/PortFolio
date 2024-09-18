@@ -72,9 +72,6 @@ const Date = styled.div`
     font-size: 10px;
   }
 
-  
-  
-
 `;
 
 const Description = styled.div`
@@ -119,9 +116,7 @@ text-align: center;
 function ProjectsCard({ project }) {
   return (
     <Card>
-
       <Image />
-
       <Tags>
         {project.tags.map((tag, index) => (
           <span key={index}>{tag}</span>
