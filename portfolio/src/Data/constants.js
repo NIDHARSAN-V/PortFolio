@@ -231,349 +231,325 @@ export const experiences = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
+    role: "Frontend Engineer and WebScraper",
+    company: "Centillion Labs",
     date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    desc: "I worked on a web scraping project where I integrated various APIs to gather data on several thousand startups. The focus was on collecting details about the companies, including the CEOs and their LinkedIn profiles. I started by building the initial interface using React, which allowed for a seamless user experience. The backend involved automated scripts that extracted and processed the required information efficiently. This project helped streamline data collection efforts and provided valuable insights for startup analysis and networking opportunities.",
     skills: [
       "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
+      " Pyhton",
+      "Selenium",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+  
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
+    role: "Backend Developer",
+    company: "Raatai",
     date: "Aug 2023 - Oct 2023",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    desc: "I worked as a Backend Developer at Raatai Company, utilizing the MERN (MongoDB, Express.js, React, Node.js) stack to develop and maintain robust backend systems. My primary responsibilities included building and managing RESTful APIs, handling database design and integration with MongoDB, and optimizing server-side logic using Node.js and Express.js. I collaborated closely with front-end developers to ensure seamless integration between the backend and React-based front-end applications. My work focused on enhancing application performance, improving security, and ensuring scalability to support the company's growing user base.",
+
     skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "React JS",
+      "Express JS",
+      "MongoDB",
+      "Node JS",
+      "RestFul APIs"
     ],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
-  },
+
+
 ];
 
 export const education = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    school: "Bharani Vidhyala CBSE",
+    date: "2020 - 2022",
+    grade: "94.8%",
+    desc: "I am a computer science student at Bharani Vidhyalaya CBSE School, where I have developed a strong foundation in programming, algorithms, and technology concepts. My studies focus on core subjects like data structures, coding, and problem-solving, allowing me to build a solid understanding of computer science principles. I am passionate about exploring new technologies, developing projects, and continuously enhancing my technical skills. Through various academic projects and extracurricular activities, I have gained hands-on experience in coding and software development, preparing me for future challenges in the field of technology.",
+    degree: "Computer Science Group HSC",
   },
   {
     id: 1,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    school: "Kongu Engineering College",
+    date: "2022 - 2026",
+    grade: "9.21 CGPA 4th Semester",
+    desc: "",
+    degree: "Bachelor degree in ComputerScience Engineering",
   },
 ];
 
 export const projects = [
   {
-    id: 11,
-    title: "DecisionHub",
+    id: 0,
+    title: "ICC Website Recreated",
     date: "Jan 2024 - Dec 2023",
     description:
-      "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "I recreated an ICC (International Cricket Council) website using HTML, CSS, and Bootstrap, focusing on a clean, responsive design that delivers an intuitive user experience. I leveraged Bootstrap’s grid system to ensure the website was fully responsive across all devices, including mobile, tablet, and desktop. The website featured sections like live scores, player statistics, and upcoming match schedules, styled with custom CSS to provide a professional and engaging look. This project helped me sharpen my front-end development skills, particularly in creating visually appealing and well-structured websites using modern web design techniques.",
     image:
       "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
     tags: [
-      "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
+     "HTML",
+     "CSS",
+     "BootStrap"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
+    github: "https://github.com/NIDHARSAN-V/ICC-website-clone.git",
     webapp: "https://decisionhub.netlify.app/",
   },
+
+
   {
-    id: 9,
-    title: "Trackify",
+    id: 1,
+    title: "WebScraping Script",
     date: "Jun 2023 - Jul 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "I developed a web scraping script using Selenium to gather thousands of CEO data and LinkedIn profiles of various startups. The script automates the process of navigating through websites, extracting relevant information like company names, CEO names, and LinkedIn profiles. Selenium’s browser automation capabilities allowed me to handle dynamic content and interact with elements on the page efficiently. The extracted data is then cleaned and stored in a structured format for further analysis, providing valuable insights into the leadership of different startups.",
     image:
       "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "Python",
+      "Selenium",
+      "Beautiful Soup",
+      "Dev Tools"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
+    github: "https://github.com/NIDHARSAN-V/Centillionlabs-2-contacts-.git",
     webapp: "https://trackify-management.netlify.app/",
   },
+
+
+
   {
-    id: 0,
-    title: "Podstream",
+    id: 2,
+    title: "CollCom",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "",
     image:
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux" , "SocketIO"],
     category: "web app",
     github: "https://github.com/rishavchanda/Podstream",
     webapp: "https://podstream.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+   
   },
+
+
+
+
+
+
   {
-    id: 1,
-    title: "Vexa",
+    id: 3,
+    title: "Title Animation",
     date: "Oct 2022 - Jan 2023",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+    "I created a title animation using Blender, where I designed and animated the text with dynamic effects to create an engaging visual. I used Blender’s powerful 3D modeling and animation tools to craft the movement, lighting, and camera angles, giving the title a polished and professional look. The animation includes smooth transitions, customized typography, and attention-grabbing effects, perfect for video intros or branding projects. This project allowed me to enhance my skills in 3D animation and motion graphics, resulting in a visually appealing and high-quality title sequence.",
     image:
       "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
+      "Blender",
+      "AfterEffects"
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Project-Management-App",
+    github: "https://github.com/NIDHARSAN-V/Blender-1st-Title.git",
     webapp: "https://vexa-app.netlify.app/",
   },
-  {
-    id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
-    description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "ml",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
-    description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    image:
-      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    category: "network",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-  },
-  {
-    id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-    category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
-  },
+
+
+
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Expenses Tracking",
+    date: "Jan 2023 - Mar 2023",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "I developed an expense tracking system using Python, Tkinter, MySQL, and Flask, providing a full-stack solution for managing personal or business finances. The front-end interface was built with Tkinter, offering an easy-to-use graphical user interface (GUI) for users to input and view their expenses. The back-end utilized MySQL to store all expense data securely, while Flask was implemented to create a RESTful API, enabling seamless interaction between the front-end and the database. This project helped me integrate multiple technologies to build a functional and efficient system for tracking and managing expenses.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    tags: ["Python", "Tkinter", "MySql" , "Flask"],
+    category: "ml",
+    github: "https://github.com/NIDHARSAN-V/Python_Tkinter.git",
+    webapp: "https://brain-tumor.netlify.app/",
+    
   },
+
+
+
+
+
+
   {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
+    id:6 ,
+    title: "Redux Student CRUD",
+    date: "Dec 2021 - Apr 2022",
     description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+      "I developed a student details management system using React and Redux, where I implemented full CRUD (Create, Read, Update, Delete) operations. React was used to create an intuitive and dynamic user interface, allowing users to easily manage student information. Redux was integrated for state management, ensuring smooth and efficient handling of data updates across the application. This project enabled users to add, view, edit, and delete student records, with a focus on maintaining a clean and organized structure. It helped me improve my skills in building scalable, state-managed applications using React and Redux.",
     image:
-      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://rishav-react-todo.netlify.app/",
+      "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+
+    tags: ["React JS", "Redux", "Context API"],
+
+    category: "network",
+    github: "https://github.com/NIDHARSAN-V/React-Redux-Crud-Operations-.git",
+
+    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+
   },
-  {
-    id: 6,
-    title: "Breaking Bad",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:
-      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    tags: ["React Js", "API", "Axios", "Node JS"],
-    category: "web app",
-    github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "https://breaking-bad-webapp.netlify.app",
-  },
+
+
+
+
+
   {
     id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
+    title: "SpitFire",
+    date: "Jun 2023 - Jul 2023",
     description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+      "I created a detailed 3D model of a Spitfire aircraft with animation, set in a dynamic sky environment using Blender. The project involved designing the Spitfire with accurate proportions, texturing it for realism, and animating it to simulate flight through a vast, cloud-filled sky. I used Blender’s particle systems for clouds and lighting effects to create a visually stunning scene, with smooth camera movements that follow the aircraft's flight. The animation brings the Spitfire to life in a vibrant, action-packed sky world, showcasing my skills in 3D modeling, animation, and environmental design.",
+
     image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-    category: "cyber",
-    github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
+
+    tags: ["Blender"],
+    category: "android app",
+    github: "https://github.com/rishavchanda/Job-finder-App",
+    webapp: "https://github.com/NIDHARSAN-V/Spitfire-Blender.git",
   },
+
+
+
   {
     id: 8,
-    title: "Face Recognition",
+    title: "VR Hotel",
+    date: "Jul 2021",
+    description:
+      "https://github.com/NIDHARSAN-V/KEC_GuestHouseBooking_VR.git",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
+    tags: ["React Js", "Node Js", "MongoDB", "Express JS"],
+
+    category: "web app",
+
+    github: "https://github.com/NIDHARSAN-V/KEC_GuestHouseBooking_VR.git",
+
+
+    webapp: "https://whatsapp-clone-rishav.web.app",
+  },
+
+
+
+  {
+    id: 9,
+    title: "VocalNetScan",
+    date: "Jun 2021",
+    description:
+      " I developed a React Native app that serves as an Nmap tool, designed to operate seamlessly on mobile devices. The app begins by capturing speech input from the user, converting it into text for processing. This text is then sent to a natural language processing (NLP) model to interpret the user's intent and extract relevant commands.Next, the interpreted command is forwarded to a Termux environment where the Nmap tool executes the specified operations. The results are then processed by a Retrieval-Augmented Generation (RAG) model, which refines the output and provides meaningful insights. Finally, the app displays the details of the scan results to the user in an organized and user-friendly interface. This project combines voice recognition, NLP, and advanced data processing to enhance the user experience for network scanning on mobile devices.",
+    image:
+      "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
+    tags: ["React Native", "Flask", "Termux API", "Node JS" , "Axios" , "MongoDB" , "Nmap"],
+    category: "web app",
+    github: "https://github.com/NIDHARSAN-V/Nmap-ML.git",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+
+
+  {
+    id: 10,
+    title: "AutoMetasploit Scripts",
+    date: "Jun 2021",
+    description:
+      "I developed a Metasploit scripting file designed for cross-platform compatibility, targeting Windows, Android, iOS, and Linux systems. The project includes executable files such as APK for Android, SH scripts for Linux, and EXE files for Windows. I utilized various payloads to establish access to the target devices through techniques like reverse bind and bind shell. This involved crafting and configuring payloads to effectively exploit vulnerabilities across different operating systems. The scripting file automates the process of creating and deploying these payloads, showcasing my skills in penetration testing and cybersecurity automation.",
+    image:
+      "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
+    tags: ["Linux" , "Shell Scripting","Msfconsole","SSH"],
+
+    category: "web app",
+    github: "https://github.com/NIDHARSAN-V/Metasploit-Automation-Script-Linux-.git",
+    webapp: "https://breaking-bad-webapp.netlify.app",
+  },
+
+
+  {
+    id: 11,
+    title: "Voice to Image Converter",
+    date: "Dec 2020 - Jan 2021",
+    description:
+      "I developed a voice-to-image model that integrates two key components: a voice-to-text model and a text-to-image model. The process begins by capturing voice input from the user, which is then converted into text using the voice-to-text model. This transcribed text serves as the input for the text-to-image model, which generates a corresponding image based on the provided description.The project leverages advanced machine learning techniques to bridge the gap between audio and visual content, enabling users to create images simply by speaking. This innovative application enhances accessibility and creativity, demonstrating my ability to combine natural language processing and computer vision technologies in a cohesive manner.",
+    image:
+      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+    tags: ["HTML , Flask , Models"],
+    category: "cyber",
+    github: "https://github.com/NIDHARSAN-V/Voice-to-Image-Model.git",
+    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+  },
+
+  
+  {
+    id: 12,
+    title: "CSS Generator",
     date: "Jan 2021",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
+     "I designed a compiler using React.js that integrates a CSS executor along with CodeMirror for an enhanced coding experience. In this project, users can input CSS code and communicate with a Gemini AI model to generate or modify CSS styles based on their queries. The response from Gemini is then executed within the CSS executor, allowing users to see real-time results of their code.The use of CodeMirror provides a powerful code editing environment with syntax highlighting and error detection, enhancing usability. This project showcases my skills in front-end development and my ability to integrate AI with web technologies, creating a dynamic platform for learning and experimenting with CSS.",
     image:
       "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    tags: ["React JS ,  codeMirror , Gemini API"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    github: "https://github.com/NIDHARSAN-V/CSS-Generator.git",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
+
+    
+  {
+    id: 13,
+    title: "Tomatix",
+    date: "Jan 2021",
+    description:
+      "I completed a comprehensive project focused on tomatoes, which includes several key features such as a chatbot for user interaction, disease prediction for tomato plants, and a community chat for farmers to share experiences and advice. The project also features static pages that provide valuable information about tomatoes, including references on cultivation practices, pest management, and recommended fertilizers.Additionally, I incorporated a marketplace functionality for buying and selling tomatoes, allowing users to connect with sellers and buyers directly. This project not only showcases my skills in developing user-friendly interfaces and interactive components but also emphasizes the importance of technology in agriculture by providing resources and support for tomato growers. Overall, it serves as a valuable tool for farmers, facilitating knowledge sharing and improving their productivity.",
+    image:
+      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
+
+
+    tags: ["Python", "React Native" , "Selenium" , "Gemini" , "CNN" , "Socket IO" , "Redux" , "JWT Auth" ],
+    category: "machine learning",
+    github: "https://github.com/NIDHARSAN-V/Tomatix_Full_Stack.git",
+    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+  },
+
+
+
+  {
+    id: 14,
+    title: "Car Price Prediction",
+    date: "Jan 2021",
+    description:
+      "I developed a car price prediction model using regression techniques to estimate the market value of vehicles based on various features. The project involved collecting a comprehensive dataset that includes factors such as the car's make, model, year, mileage, condition, and other relevant specifications.Using regression analysis, I trained the model to identify patterns and relationships between these features and the car prices. The model can predict the selling price of a car based on the input parameters, providing valuable insights for buyers and sellers in the automotive market.This project not only demonstrates my proficiency in data analysis and machine learning but also highlights the practical application of regression models in real-world scenarios, helping users make informed decisions when buying or selling cars.",
+    image:
+      "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
+
+
+    tags: ["Python", "Regression Model","HTML" , "Flask" ],
+
+    category: "machine learning",
+    github: "https://github.com/NIDHARSAN-V/CarPricePrediction.git",
+    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+  },
+
+
+
+
+
 ];
+
+
+
+
+
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
